@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C1A6A6"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="77dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="casual"
+        android:text="Grade calcualtor"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="228dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="10dp"
+        android:background="#79B2D88B"
+        android:backgroundTint="#A66B6B"
+        android:ems="10"
+        android:hint="Quizes %15"
+        android:inputType="textPersonName"
+        android:textColor="#686565" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="228dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="10dp"
+        android:background="#79B2D88B"
+        android:backgroundTint="#A66B6B"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="Final 30%"
+        android:inputType="textPersonName"
+        android:textColor="#686565" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="228dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="10dp"
+        android:background="#79B2D88B"
+        android:backgroundTint="#A66B6B"
+        android:ems="10"
+        android:hint="homework %25"
+        android:inputType="textPersonName"
+        android:textColor="#686565" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="228dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="10dp"
+        android:background="#79B2D88B"
+        android:backgroundTint="#A66B6B"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="Mid terms 30%"
+        android:inputType="textPersonName"
+        android:textColor="#686565" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="228dp"
+        android:layout_height="90sp"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="calculate"
+        android:textSize="24sp"/>
+
+</LinearLayout>
